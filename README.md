@@ -110,17 +110,18 @@ npm run preview
   - `str`: orientation and route guidance
   - `shop`: shopping character, suggested places, and practical tips
 
-## Static Deployment Notes
+## GitHub Pages Deployment
 
-This app uses **HashRouter**, so routes are served as URL fragments (`/#/category/...`) and do not require server-side SPA rewrites.
+The repository is configured to deploy automatically to GitHub Pages when changes are pushed to `main`. Vite builds with the `/rome-trip-guide/` base path, and the app uses **HashRouter**, so category and destination routes do not require server-side rewrites.
 
-This works well on:
-- GitHub Pages
-- Netlify
-- Cloudflare Pages
-- most static file hosts
+1. Push the project to the `main` branch on GitHub.
+2. In the repository, open **Settings → Pages**.
+3. Set **Build and deployment → Source** to **GitHub Actions**.
+4. Open the **Actions** tab and wait for the **Deploy to GitHub Pages** workflow to finish.
 
-Deploy the contents of `dist/` after running `npm run build`.
+The site URL is `https://dev-akashili.github.io/rome-trip-guide/`. For a different repository name or custom domain, update the Vite `base` path in `vite.config.ts`.
+
+To build locally, run `npm run build`; the static files are written to `dist/`.
 
 ## External Image Dependency Notes
 
