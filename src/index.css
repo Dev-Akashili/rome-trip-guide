@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+:root {
+  --background: 31 20% 96%;
+  --foreground: 18 22% 16%;
+  --card: 30 25% 98%;
+  --card-foreground: 18 22% 16%;
+  --popover: 30 25% 98%;
+  --popover-foreground: 18 22% 16%;
+  --primary: 10 45% 38%;
+  --primary-foreground: 30 30% 98%;
+  --secondary: 25 25% 90%;
+  --secondary-foreground: 18 22% 20%;
+  --muted: 30 18% 88%;
+  --muted-foreground: 20 14% 40%;
+  --accent: 12 39% 45%;
+  --accent-foreground: 30 30% 98%;
+  --destructive: 0 72% 46%;
+  --destructive-foreground: 30 30% 98%;
+  --border: 24 18% 80%;
+  --input: 24 18% 80%;
+  --ring: 12 39% 45%;
+  --radius: 0.85rem;
+}
+
+.dark {
+  --background: 220 16% 11%;
+  --foreground: 28 14% 93%;
+  --card: 218 15% 14%;
+  --card-foreground: 28 14% 93%;
+  --popover: 218 15% 14%;
+  --popover-foreground: 28 14% 93%;
+  --primary: 8 44% 54%;
+  --primary-foreground: 210 30% 10%;
+  --secondary: 220 12% 20%;
+  --secondary-foreground: 28 14% 93%;
+  --muted: 220 9% 22%;
+  --muted-foreground: 25 8% 74%;
+  --accent: 9 38% 50%;
+  --accent-foreground: 28 14% 93%;
+  --destructive: 0 66% 42%;
+  --destructive-foreground: 28 14% 93%;
+  --border: 220 10% 27%;
+  --input: 220 10% 27%;
+  --ring: 8 44% 54%;
+}
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+}
+
+* {
+  @apply border-border;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.editorial-heading {
+  font-family: "Iowan Old Style", "Georgia", "Times New Roman", serif;
+}
