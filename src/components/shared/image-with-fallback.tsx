@@ -6,7 +6,15 @@ interface ImageWithFallbackProps extends React.ImgHTMLAttributes<HTMLImageElemen
   fallbackText: string
 }
 
-export function ImageWithFallback({ fallbackText, className, alt, ...props }: ImageWithFallbackProps) {
+function imageAtWidth(src: string, width: number) {
+  if (!src.includes("thumb.wikimedia.org") || !src.includes("/330px-")) {
+    return undefined
+  }
+
+  return src.replace("/330px-", `/${width}px-`)
+}
+
+export function ImageWithFallback({ fallbackText, className, alt, src, srcSet, sizes, ...props }: ImageWithFallbackProps) {
   const [failed, setFailed] = useState(false)
 
   if (failed) {
@@ -25,9 +33,24 @@ export function ImageWithFallback({ fallbackText, className, alt, ...props }: Im
     )
   }
 
+  const responsiveSrcSet =
+    srcSet ??
+    (src
+      ? [640, 960, 1280]
+          .map((width) => {
+            const image = imageAtWidth(src, width)
+            return image ? `${image} ${width}w` : undefined
+          })
+          .filter((image): image is string => Boolean(image))
+          .join(", ")
+      : undefined)
+
   return (
     <img
       alt={alt}
+      src={src ? imageAtWidth(src, 640) ?? src : undefined}
+      srcSet={responsiveSrcSet || undefined}
+      sizes={sizes ?? "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"}
       className={className}
       loading="lazy"
       onError={() => setFailed(true)}

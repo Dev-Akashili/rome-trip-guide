@@ -6,6 +6,8 @@ export const destinations: Destination[] = [
     slug: "piazza-del-popolo",
     name: "Piazza del Popolo",
     shortDescription: "A monumental northern gateway square framed by an obelisk, churches, and city views.",
+    expandedGuide:
+      "Imagine arriving here before the age of railways: for many visitors coming down the Via Flaminia, this was Rome's first grand urban room. The square is a useful place to pause and read the city's geometry. The obelisk marks its centre, the twin churches frame the southern exits, and the Pincio rises above the eastern edge. From here, choose whether to follow the straight line of Via del Corso or climb for a wider view before continuing.",
     types: ["att"],
     images: [
       {
@@ -34,6 +36,8 @@ export const destinations: Destination[] = [
     slug: "santa-maria-dual-churches",
     name: "Santa Maria Dual Churches",
     shortDescription: "The two Baroque churches that frame Rome's famous trident of streets.",
+    expandedGuide:
+      "The pair consists of Santa Maria in Montesanto and Santa Maria dei Miracoli. Their near-symmetry is a deliberate urban effect: viewed from the northern end of the piazza, their domes and facades help organise the three streets that fan out toward the centre. Look closely and the illusion gives way to two different plans, adapted to the uneven space available. They are a small but legible lesson in how Baroque architects used architecture to shape the experience of a whole square.",
     types: ["att"],
     images: [
       {
@@ -63,6 +67,8 @@ export const destinations: Destination[] = [
     slug: "via-del-corso",
     name: "Via del Corso",
     shortDescription: "A long, central walking artery connecting Piazza del Popolo toward central monuments.",
+    expandedGuide:
+      "Via del Corso is most useful as a clear north-south reference line, not as a route that needs to be walked end to end. Piazza del Popolo marks its northern end and Piazza Venezia its southern end; major sights sit in the dense side streets between them. Pick a specific detour, note which side of the avenue you are on, and return to the Corso when you need to re-orient. The street's broad, busy character contrasts with the quieter lanes only a short turn away.",
     types: ["str", "shop"],
     images: [
       {
@@ -104,6 +110,8 @@ export const destinations: Destination[] = [
     slug: "santa-maria-del-popolo-church",
     name: "Santa Maria del Popolo Church",
     shortDescription: "A richly layered church known for Renaissance chapels and major artworks.",
+    expandedGuide:
+      "This church is particularly rewarding when you look beyond the main nave and take time with its side chapels. The Cerasi Chapel brings Caravaggio and Annibale Carracci into close conversation, while the Chigi Chapel carries the legacy of Raphael's design and later Baroque work. The experience is concentrated rather than sprawling: identify a chapel, let your eyes adjust to the interior, and notice how family patronage turned a neighborhood church into a gallery of civic ambition. Access and visibility of individual works can vary during services or conservation.",
     types: ["opt"],
     images: [
       {
@@ -133,6 +141,8 @@ export const destinations: Destination[] = [
     slug: "leonardo-da-vinci-museum",
     name: "Leonardo da Vinci Museum",
     shortDescription: "An optional technical-museum stop focused on reconstructions of Leonardo's ideas.",
+    expandedGuide:
+      "Approach this as an interpretive exhibition about Leonardo's methods rather than a collection of original machines. His notebooks move between observation, drawing, and practical questions about force, movement, water, and flight. A useful way to explore is to compare a model with the drawing or explanation beside it, asking which parts come directly from a surviving design and which are modern decisions made to make it work. Museum displays and access arrangements can change, so check the venue's current information before making a special trip.",
     types: ["opt"],
     images: [
       {
@@ -163,6 +173,8 @@ export const destinations: Destination[] = [
     slug: "pincio-terrace",
     name: "Pincio Terrace",
     shortDescription: "A scenic terrace above Piazza del Popolo with broad city views.",
+    expandedGuide:
+      "The terrace works best as a pause between the open scale of Piazza del Popolo and the gardens above. From the balustrade, look across the oval square, then pick out the line of Via del Corso and the clustered domes beyond it. The Pincio is a public promenade rather than one isolated viewing platform, so you can continue through the gardens after the view instead of retracing every step. Late afternoon often gives softer light, but the panorama is rewarding whenever the air is clear.",
     types: ["opt"],
     images: [
       {
@@ -191,6 +203,8 @@ export const destinations: Destination[] = [
     slug: "piazza-di-spagna",
     name: "Piazza di Spagna",
     shortDescription: "A landmark square anchored by the Spanish Steps and elegant surrounding streets.",
+    expandedGuide:
+      "Give the Spanish Steps a moment from below before climbing: the wide, irregular flights were designed as a monumental connection between the square and the church of Trinità dei Monti, not as a uniform staircase. At the base, the Barcaccia sits low in the square and offers a very different scale from the steps above. Once at the top, turn around for the view over the rooftops, then use the adjacent streets as a quieter way into the shopping district. Follow local signs and rules for protecting the steps and fountain.",
     types: ["att"],
     images: [
       {
@@ -219,6 +233,8 @@ export const destinations: Destination[] = [
     slug: "trevi-fountain",
     name: "Trevi Fountain",
     shortDescription: "Rome's most famous Baroque fountain, built as a theatrical water facade.",
+    expandedGuide:
+      "The fountain makes more sense when you read it as the end of a water route as well as a sculpture. The Acqua Vergine aqueduct supplies the display, while the Palazzo Poli becomes its architectural backdrop. Oceanus stands above the water, and the rocky foreground turns the small piazza into an imagined seascape. Because the space is compact and very popular, step back to take in the whole composition, keep pathways clear, and check current visitor rules before approaching the basin.",
     types: ["att"],
     images: [
       {
@@ -247,6 +263,8 @@ export const destinations: Destination[] = [
     slug: "pantheon",
     name: "Pantheon",
     shortDescription: "A remarkably preserved Roman temple-turned-church with a massive concrete dome.",
+    expandedGuide:
+      "Stand just inside the entrance and let your eye travel from the portico into the circular interior; the transition is one of the building's great effects. The dome's diameter and the room's height are equal, making the interior fit within an imagined sphere. The oculus is open to the sky, so sunlight, clouds, and rain all become part of the visit. The building is still a consecrated church, and current entry arrangements may include ticketing or rules that differ from earlier visits.",
     types: ["att"],
     images: [
       {
@@ -275,6 +293,8 @@ export const destinations: Destination[] = [
     slug: "trastevere-santa-maria-church",
     name: "Trastevere (Santa Maria Church)",
     shortDescription: "A lively neighborhood stop centered on one of Rome's oldest Marian churches.",
+    expandedGuide:
+      "Begin with the piazza, where the church is part of everyday neighborhood life rather than a monument set apart from it. Inside, look toward the apse mosaics and then compare their gold ground with the more intimate details of the chapels and columns. Outside, the square is a useful orientation point before exploring Trastevere's narrow lanes. The district is especially lively later in the day; visiting at a quieter hour makes it easier to appreciate the church before the surrounding social scene takes over.",
     types: ["att"],
     images: [
       {
@@ -304,6 +324,8 @@ export const destinations: Destination[] = [
     slug: "colosseum",
     name: "Colosseum",
     shortDescription: "The great Flavian amphitheatre and an enduring symbol of imperial Rome.",
+    expandedGuide:
+      "The Colosseum was a piece of urban infrastructure as much as a monument: its repeated entrances, numbered access points, and tiered seating moved a huge audience into and out of the arena. Imagine the building full of spectators and the arena floor hiding the service spaces below. Today, the exposed masonry also tells a story of later quarrying, earthquakes, repairs, and conservation. If you have a ticket, check exactly which areas it covers and arrive according to the current entry instructions; access to the underground and upper levels is not universal.",
     types: ["att"],
     images: [
       {
@@ -333,6 +355,8 @@ export const destinations: Destination[] = [
     slug: "roman-forum",
     name: "Roman Forum",
     shortDescription: "Ruins of temples, political buildings, and civic spaces at Rome's ancient core.",
+    expandedGuide:
+      "Try not to read the Forum as a single ruin from one moment in time. It grew over centuries, and the remains belong to different periods, functions, and levels of rebuilding. As you walk, imagine daily movement between temples, public meeting places, law courts, and commemorative monuments; the surviving columns are fragments of a dense civic centre. From a higher viewpoint, the alignments become easier to understand. Surfaces can be uneven and exposed to sun, so plan for comfortable footwear, water, and time to pause.",
     types: ["att"],
     images: [
       {
@@ -362,6 +386,8 @@ export const destinations: Destination[] = [
     slug: "palatine-hill",
     name: "Palatine Hill",
     shortDescription: "Mythic and imperial hilltop with archaeological remains and broad views.",
+    expandedGuide:
+      "The Palatine offers two ways of seeing Rome at once: the hill is tied to foundation traditions, and its later palaces show how emperors made the landscape a setting for power. The scale of the residential complexes is easier to grasp from their terraces and long walls than from any single room. Look down toward the Forum on one side and the Circus Maximus on the other to understand why the position mattered. This is a large archaeological area with slopes and changing surfaces, so allow time and avoid treating it as a quick add-on to the Forum.",
     types: ["att"],
     images: [
       {
@@ -390,6 +416,8 @@ export const destinations: Destination[] = [
     slug: "arch-of-constantine",
     name: "Arch of Constantine",
     shortDescription: "A triumphal arch beside the Colosseum, built with reused imperial reliefs.",
+    expandedGuide:
+      "This arch is a compact way to explore how Roman monuments reused and reinterpreted earlier art. Some reliefs were made for Constantine's monument, while other sculpted panels were taken from structures associated with earlier emperors and fitted into a new composition. Compare the different carving styles instead of assuming the arch was decorated all at once. Its position beside the Colosseum also places it along a ceremonial landscape linking the amphitheatre, the Forum, and routes through the ancient city.",
     types: ["opt"],
     images: [
       {
@@ -418,6 +446,8 @@ export const destinations: Destination[] = [
     slug: "monti",
     name: "Monti",
     shortDescription: "A walkable district with craft boutiques, design shops, and relaxed side streets.",
+    expandedGuide:
+      "Monti is best explored in short, unhurried loops. Its small streets and sloping lanes feel more residential than the major shopping avenues, and shop styles can change from one block to the next. Browse with an open mind rather than expecting one continuous high street: independent fashion, vintage, design, and everyday neighborhood businesses sit alongside cafés and local services. Check opening information for any particular shop before making it a destination, and remember that the area's steep cobbles reward comfortable shoes.",
     types: ["shop"],
     images: [
       {
@@ -446,6 +476,8 @@ export const destinations: Destination[] = [
     slug: "piazza-venezia-il-vittoriano",
     name: "Piazza Venezia (Il Vittoriano)",
     shortDescription: "A major traffic and orientation hub dominated by the Vittoriano monument.",
+    expandedGuide:
+      "Piazza Venezia is visually dominated by the Vittoriano, the white marble national monument also known as the Altare della Patria. The square itself is a busy junction, so it is more useful as an orientation point than as a place to cross casually. Use the monument as your landmark, identify a marked pedestrian crossing, and decide whether you are heading toward the Forum, Capitoline Hill, or Via del Corso. From a safe viewpoint, notice how modern traffic routes cut through an exceptionally dense historical setting.",
     types: ["str"],
     images: [
       {
@@ -473,6 +505,8 @@ export const destinations: Destination[] = [
     slug: "capitoline-hill-campidoglio",
     name: "Capitoline Hill (Campidoglio)",
     shortDescription: "A historic hilltop square redesign by Michelangelo above the Roman Forum.",
+    expandedGuide:
+      "The Campidoglio rewards a slow approach up the Cordonata, Michelangelo's broad, gently rising stair-ramp. At the top, the trapezoidal piazza and its buildings create a carefully composed space that feels quieter than the traffic below. The equestrian statue at the centre is a Roman copy; the original is preserved indoors. Walk around the square and look for the back-of-city views toward the Forum, where the contrast between Renaissance design and ancient remains becomes especially clear.",
     types: ["att"],
     images: [
       {
@@ -503,6 +537,8 @@ export const destinations: Destination[] = [
     slug: "teatro-marcello",
     name: "Teatro Marcello",
     shortDescription: "An optional ancient theatre whose arcades influenced later amphitheatre architecture.",
+    expandedGuide:
+      "The Theatre of Marcellus is easiest to appreciate from outside, where the lower arcades reveal the scale and rhythm of a Roman entertainment building. The upper levels have been adapted over time, so the structure visibly combines ancient masonry with later domestic and defensive uses. It is not the same building as the Colosseum, but comparing their arcades helps explain a shared architectural language. Treat the visit as an exterior urban stop unless current access information confirms that interior areas are open.",
     types: ["opt"],
     images: [
       {
@@ -532,12 +568,18 @@ export const destinations: Destination[] = [
     slug: "jewish-ghetto",
     name: "Jewish Ghetto",
     shortDescription: "A historic district with layered memory, local food culture, and walkable lanes.",
+    expandedGuide:
+      "The Roman Jewish quarter is a living neighborhood, not an open-air museum. Its history includes a papal decree establishing a walled ghetto in 1555, centuries of compulsory confinement and restrictions, and the destruction of the walls after the end of papal rule. Walk respectfully: the Great Synagogue, Portico d'Ottavia, memorial plaques, and community institutions speak to different chapters of that history. The streets are also home to residents and active businesses, so observe quietly and avoid treating solemn memorials as props.",
     types: ["str"],
     images: [
       {
-        src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/ViaRuaInGhettoByRoeslerFranz.jpg/330px-ViaRuaInGhettoByRoeslerFranz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        alt: "Historic street view of the Roman Ghetto area.",
-        source: { label: "Wikimedia Commons via Wikipedia", url: "https://en.wikipedia.org/wiki/Roman_Ghetto" },
+        src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Roma_Roman_Ghetto_%2852349970798%29.jpg/1280px-Roma_Roman_Ghetto_%2852349970798%29.jpg",
+        alt: "Modern color photograph of a street in Rome's Jewish quarter.",
+        caption: "A contemporary street view of the Roman Jewish quarter.",
+        source: {
+          label: "Jorge Franganillo, Wikimedia Commons (CC BY 2.0)",
+          url: "https://commons.wikimedia.org/wiki/File:Roma_Roman_Ghetto_(52349970798).jpg",
+        },
       },
     ],
     street: {
@@ -559,6 +601,8 @@ export const destinations: Destination[] = [
     slug: "campo-de-fiori",
     name: "Campo de' Fiori",
     shortDescription: "A central square that combines market life, route orientation, and casual shopping.",
+    expandedGuide:
+      "Campo de' Fiori changes character across the day. The daytime market gives the square a practical, working rhythm, while later hours bring people back for food and socialising. Giordano Bruno's statue is a strong landmark, but the square's value is also in its connections: narrow lanes lead toward Piazza Navona, the Jewish quarter, and the river. Market stalls are independent businesses, so compare prices and ask what a product is before buying rather than assuming every display is locally made.",
     types: ["str", "shop"],
     images: [
       {
@@ -600,6 +644,8 @@ export const destinations: Destination[] = [
     slug: "vatican-museums",
     name: "Vatican Museums",
     shortDescription: "A vast museum complex with classical collections and Renaissance masterpieces.",
+    expandedGuide:
+      "The museums are a sequence of collections and architectural spaces rather than one gallery that can be absorbed in a single visit. Decide what matters most to you before entering: classical sculpture, the Raphael Rooms, the map galleries, and the Sistine Chapel each invite a different pace. Notice how rooms themselves—ceilings, wall decoration, and long perspectives—are part of the collection. The route can be crowded and tiring; consult the official visitor guidance for current ticketing, entry, access, and photography rules, and leave room for breaks.",
     types: ["att"],
     images: [
       {
@@ -630,6 +676,8 @@ export const destinations: Destination[] = [
     slug: "st-peters-square-and-basilica",
     name: "St Peter's Square and Basilica",
     shortDescription: "The monumental heart of Vatican ceremonial space and one of Christianity's key churches.",
+    expandedGuide:
+      "The square and basilica are best understood as one sequence: approach through the open piazza, take in the colonnade's embrace, and then move inside to experience the change in scale. In the basilica, look for how sculpture, mosaics, architecture, and light work together rather than trying to take in every detail at once. St Peter's is an active place of worship, so dress and behave respectfully. Security checks, liturgical events, and access rules can affect entry; check official information before you go.",
     types: ["att"],
     images: [
       {
@@ -658,6 +706,8 @@ export const destinations: Destination[] = [
     slug: "via-della-conciliazione",
     name: "Via della Conciliazione",
     shortDescription: "The broad approach boulevard linking the Tiber side to St Peter's Square.",
+    expandedGuide:
+      "The boulevard's most memorable feature is its long sightline: from the river side, St Peter's dome and facade gradually fill the view as you approach the square. That perspective is relatively recent. The avenue was cut through the Borgo in the 20th century, replacing a dense network of older streets to create a formal approach to the Vatican. Walk on the pavements, watch crossings, and use the side streets when you want a quieter route or a closer look at the neighborhood's surviving fabric.",
     types: ["str"],
     images: [
       {
@@ -685,6 +735,8 @@ export const destinations: Destination[] = [
     slug: "castel-sant-angelo",
     name: "Castel Sant'Angelo",
     shortDescription: "A riverfront fortress-museum that began as a Roman imperial mausoleum.",
+    expandedGuide:
+      "The building's circular mass preserves the outline of Hadrian's mausoleum, but its later appearance reflects a long shift from tomb to fortress, papal refuge, prison, and museum. The ramp through the interior helps explain the original monumental core; upper rooms and terraces reveal later layers and views across the Tiber. Outside, cross Ponte Sant'Angelo slowly and notice the angel sculptures as a sequence leading toward the castle. Museum routes and opening arrangements change, so check official visitor details before planning an interior visit.",
     types: ["att"],
     images: [
       {
@@ -714,6 +766,8 @@ export const destinations: Destination[] = [
     slug: "piazza-navona",
     name: "Piazza Navona",
     shortDescription: "A Baroque showpiece square built over the footprint of an ancient stadium.",
+    expandedGuide:
+      "Piazza Navona's long oval outline follows the footprint of the Stadium of Domitian, which once hosted athletic contests. The ancient structure is mostly hidden in the surrounding buildings, but the shape of the square preserves its scale. In the centre, Bernini's Fountain of the Four Rivers turns the piazza into a Baroque conversation between water, sculpture, and the church facade opposite. Walk the perimeter as well as the centre: the changing angles reveal how the square holds together as an outdoor room.",
     types: ["str"],
     images: [
       {
@@ -741,6 +795,8 @@ export const destinations: Destination[] = [
     slug: "via-dei-coronari",
     name: "Via dei Coronari",
     shortDescription: "A characterful street linking major piazzas with antique shops and artisan storefronts.",
+    expandedGuide:
+      "Via dei Coronari is a good route when you want to move between larger landmarks without staying on a busy avenue. Its narrow line, old facades, and small shopfronts make it worth walking at a slower pace than the surrounding streets. The name is associated with the sellers of rosary beads who served pilgrims travelling toward St Peter's. Today, antique and decorative shops are part of its character, but individual businesses and opening hours change; treat browsing as an invitation, not a promise of any specific stock.",
     types: ["str", "shop"],
     images: [
       {

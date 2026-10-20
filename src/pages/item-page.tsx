@@ -83,6 +83,11 @@ export function ItemPage() {
         ))}
       </section>
 
+      <section className="space-y-3 rounded-xl border bg-card p-5">
+        <h2 className="text-2xl font-semibold">A closer look</h2>
+        <p className="max-w-3xl leading-7 text-muted-foreground">{destination.expandedGuide}</p>
+      </section>
+
       {(destination.types.includes("att") || destination.types.includes("opt")) && destination.attraction && (
         <section className="space-y-4 rounded-xl border bg-card p-5">
           <h2 className="text-2xl font-semibold">Attraction guide</h2>

@@ -37,13 +37,35 @@ export function getPrevNextDestinations(currentDestinationId: string, categorySl
   const categoryDestinations = getCategoryDestinations(categorySlug, mode)
   const index = categoryDestinations.findIndex((destination) => destination.id === currentDestinationId)
 
-  if (index === -1) {
+  if (index !== -1) {
+    return {
+      previous: categoryDestinations[index - 1] ?? null,
+      next: categoryDestinations[index + 1] ?? null,
+      categoryDestinations,
+    }
+  }
+
+  if (mode !== "priority") {
     return { previous: null, next: null, categoryDestinations }
   }
 
+  const allDestinations = getCategoryDestinations(categorySlug, "tourist")
+  const currentIndex = allDestinations.findIndex((destination) => destination.id === currentDestinationId)
+  if (currentIndex === -1) {
+    return { previous: null, next: null, categoryDestinations }
+  }
+
+  const previous = categoryDestinations
+    .filter((destination) => allDestinations.findIndex((item) => item.id === destination.id) < currentIndex)
+    .at(-1) ?? null
+  const next =
+    categoryDestinations.find(
+      (destination) => allDestinations.findIndex((item) => item.id === destination.id) > currentIndex,
+    ) ?? null
+
   return {
-    previous: categoryDestinations[index - 1] ?? null,
-    next: categoryDestinations[index + 1] ?? null,
+    previous,
+    next,
     categoryDestinations,
   }
 }

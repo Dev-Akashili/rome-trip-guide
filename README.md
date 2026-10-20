@@ -11,7 +11,7 @@ The app is built as a personal companion for short, practical reads while moving
   - Vatican City
 - **Tourist / Priority mode**:
   - Tourist mode shows all destinations.
-  - Priority mode hides optional (`Opt`) destinations in category lists and previous/next navigation.
+  - Priority mode hides optional destinations in category lists and previous/next navigation.
 - **Light / Dark / System theme toggle** with local persistence.
 - **Scroll-aware navbar**:
   - remains visible near top,
@@ -22,6 +22,9 @@ The app is built as a personal companion for short, practical reads while moving
   - type-driven content sections (`Att`, `Opt`, `Str`, `Shop`),
   - previous/next navigation within the same category and active mode.
 - **Image attribution support** and visual fallbacks when external images fail.
+- **Responsive high-resolution Wikimedia images**, including a contemporary photograph of Rome's Jewish quarter.
+- **Expanded on-site context** on every destination page, alongside the attraction, route, and shopping sections.
+- A simple footer linking to Akashili's personal website.
 - **Static-host friendly routing** via `HashRouter`.
 
 ## Tech Stack
@@ -122,5 +125,7 @@ Deploy the contents of `dist/` after running `npm run build`.
 ## External Image Dependency Notes
 
 - Most destination/category images are Wikimedia-hosted URLs sourced via related Wikipedia pages.
+- Wikimedia thumbnail sources are requested responsively at larger widths for sharper display on high-density screens.
+- The Jewish Ghetto photograph is by Jorge Franganillo and is licensed CC BY 2.0; attribution links to its Wikimedia Commons file page.
 - If an image URL becomes unavailable, the UI shows a built-in fallback block instead of a broken image.
 - For the Leonardo da Vinci Museum stop, a thematic verified open-license image is used because a stable open-license museum-specific image URL could not be consistently verified.

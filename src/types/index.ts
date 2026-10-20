@@ -46,6 +46,7 @@ export interface Destination {
   slug: string
   name: string
   shortDescription: string
+  expandedGuide: string
   types: DestinationType[]
   images: DestinationImage[]
   attraction?: AttractionContent
