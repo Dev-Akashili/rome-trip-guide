@@ -1,5 +1,6 @@
 import { HashRouter, Navigate, Route, Routes } from "react-router-dom"
 import { AppLayout } from "./components/layout/app-layout"
+import { ScrollToTop } from "./components/layout/scroll-to-top"
 import { CategoryPage } from "./pages/category-page"
 import { HomePage } from "./pages/home-page"
 import { ItemPage } from "./pages/item-page"
@@ -8,6 +9,7 @@ import { NotFoundPage } from "./pages/not-found-page"
 export default function App() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <Routes>
         <Route element={<AppLayout />}>
           <Route path="/" element={<HomePage />} />

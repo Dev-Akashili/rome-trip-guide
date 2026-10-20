@@ -17,6 +17,7 @@ The app is built as a personal companion for short, practical reads while moving
   - remains visible near top,
   - hides while scrolling down,
   - reappears while scrolling up.
+- **Route navigation starts at the top** of the new page.
 - **Destination detail pages** with:
   - route-aware back navigation,
   - type-driven content sections (`Att`, `Opt`, `Str`, `Shop`),
